@@ -14,7 +14,8 @@
             android:background="@drawable/embarcador"
             android:layout_marginBottom="60dp"
             android:layout_marginTop="60dp"
-            android:elevation="2dp" />
+            android:elevation="3dp"
+            android:translationZ="3dp" />
         <ImageButton
             android:id="@+id/btn_venda"
             android:layout_width="wrap_content"
@@ -22,7 +23,8 @@
             android:background="@drawable/venda"
             android:layout_below="@id/btn_embarcador"
             android:layout_marginBottom="60dp"
-            android:elevation="2dp" />
+            android:elevation="3dp"
+            android:translationZ="3dp" />
         <ImageButton
             android:id="@+id/btn_suporte"
             android:layout_width="wrap_content"
@@ -30,6 +32,7 @@
             android:background="@drawable/suporte"
             android:layout_below="@id/btn_venda"
             android:layout_marginBottom="60dp"
-            android:elevation="2dp" />
+            android:elevation="3dp"
+            android:translationZ="3dp" />
     </RelativeLayout>
 </ScrollView>
