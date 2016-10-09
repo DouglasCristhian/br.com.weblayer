@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CustomTheme" parent="android:Theme.Material">
+		<item name="android:colorPrimary">@color/my_colorprimary</item>
+		<item name="android:colorPrimaryDark">@color/my_colorprimaryDark</item>
+		<item name="android:windowBackground">@color/my_color_background</item>
+		<item name="android:textColorPrimary">@color/my_color_Text</item>
+	</style>
+	<style name="MyTheme.Splash" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+		<item name="android:windowBackground">@drawable/splash_screen</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+</resources>
